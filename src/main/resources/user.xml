@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<users>
+    <user>
+        <userName>
+            陈亚洲
+        </userName>
+        <carNumber>
+            001603
+        </carNumber>
+        <phoneNumber>
+            13215226495
+        </phoneNumber>
+    </user>
+    <user>
+        <userName>
+            刘学平
+        </userName>
+        <carNumber>
+            001594
+        </carNumber>
+        <phoneNumber>
+            13215226455
+        </phoneNumber>
+    </user>
+</users>

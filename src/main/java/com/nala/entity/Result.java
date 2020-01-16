@@ -157,7 +157,7 @@ public class Result<T> implements Serializable {
         return this;
     }
 
-    public Result<T> defaultSuccess(T t, int fail,int succeed) {
+    public Result<T> defaultSuccess(T t, int fail, int succeed) {
         this.success = true;
         this.code = ResultEnum.SUCCESS.getValue();
         this.message = ResultEnum.SUCCESS.getName();
@@ -167,7 +167,7 @@ public class Result<T> implements Serializable {
         return this;
     }
 
-    public Result<T> error(T t, int fail,int succeed) {
+    public Result<T> error(T t, int fail, int succeed) {
         this.success = false;
         this.code = ResultEnum.FAIL.getValue();
         this.message = ResultEnum.FAIL.getName();

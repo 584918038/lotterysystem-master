@@ -13,8 +13,8 @@ public class Acceding implements Serializable {
     //活动唯一值
     private String activityNum;
 
-    //工号
-    private String carNumber;
+    //手机号
+    private String phoneNumber;
 
     public String getActivityNum() {
         return activityNum;
@@ -24,11 +24,11 @@ public class Acceding implements Serializable {
         this.activityNum = activityNum;
     }
 
-    public String getCarNumber() {
-        return carNumber;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setCarNumber(String carNumber) {
-        this.carNumber = carNumber;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 }

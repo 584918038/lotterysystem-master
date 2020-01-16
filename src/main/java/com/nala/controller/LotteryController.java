@@ -28,7 +28,7 @@ public class LotteryController {
 
     @GetMapping("/xx")
     public Result participate() {
-        System.out.println("hello world");
+        System.out.println("hello world00");
         return null;
     }
 }
